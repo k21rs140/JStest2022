@@ -15,15 +15,20 @@
         });
 
         function main() {
-            $("#disp1").html("Hello, JavaScript!");
+            var msg = "Hello , JavaScript!";
+            msg += "<br>";
+            msg += "This is Monaca.";
+            $("# disp1 ◼ ").html(msg);
             $("#disp1").css("font-size","x-large");
             $("#disp1").css("font-family","fantasy");
             $("#disp1").css("background-color","lightgray");
+            $("#disp1").html("This is Monaca");
         }
+
     </script>
 </head>
 <body>
-    <div id="disp1" class="out">DISPLAY 1</div>
+    <div id="disp1" class="out">Hello, JavaScript!<br>This is Monaca.</div>
     <div id="disp2" class="out">DISPLAY 2</div>
     <button id="btn">Run</button>
 </body>
